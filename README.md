@@ -23,7 +23,7 @@ Non-alcoholic steatohepatitis (NASH) is a complex liver disorder characterized b
 - Provide insights into novel therapeutic avenues for NASH treatment.  
 
 💊 Drug Repurposing Approach:  
-- creen FDA-approved drugs  
+- Screen FDA-approved drugs  
 - Identify potential therapeutic candidates
 - Accelerate the drug discovery process
 
