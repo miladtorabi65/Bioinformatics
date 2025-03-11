@@ -31,7 +31,7 @@ Non-alcoholic steatohepatitis (NASH) is a complex liver disorder characterized b
 
 ## 📚 **Project Structure**
 📂 Project Root  
-├── [📘 Report_MLP.pdf](Report_MLP.pdf)  
+├── [📘 Report.pdf](https://github.com/miladtorabi65/Bioinformatics/blob/e750aa27a3cf19bca15b19af56f093618ade8f3d/Report.pdf)  
 ├── [📄 README.md (This File)](README.md)    
 ├── [📊 AGE_REGRESSION.csv (Dataset)](AGE_PREDICTION.csv)  
 ├── [📜 Functions_MLP.py (Functions and Utility Codes)](Functions_MLP.py)  
