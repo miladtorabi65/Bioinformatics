@@ -1,9 +1,8 @@
 ## 🧬 Putative Disease Gene Identification & Drug Repurposing for Steatohepatitis
-👥 Authors
-🔹 Milad Torabi, Possenti Francesca
-🔹 Group 9
-🔹 Sapienza University, Bioinformatics and Network Medicine
-📅 January 16, 2025
+👥 Authors  
+🔹 Milad Torabi, Possenti Francesca  
+🔹 Sapienza University, Bioinformatics and Network Medicine  
+📅 January 16, 2025  
 
 📝 Overview
 Non-alcoholic steatohepatitis (NASH) is a serious liver disorder characterized by:
