@@ -1,65 +1,61 @@
-Putative Disease Gene Identification and Drug Repurposing for Steatohepatitis
+🧬 Putative Disease Gene Identification & Drug Repurposing for Steatohepatitis
+👥 Authors
+🔹 Milad Torabi, Possenti Francesca
+🔹 Group 9
+🔹 Sapienza University, Bioinformatics and Network Medicine
+📅 January 16, 2025
 
-Authors
+📝 Overview
+Non-alcoholic steatohepatitis (NASH) is a serious liver disorder characterized by:
+✅ Fat accumulation in the liver
+✅ Inflammation & hepatocellular injury
+✅ Increased risk of cirrhosis & liver cancer
 
-Milad Torabi, Possenti FrancescaGroup 9Sapienza University, Bioinformatics and Network MedicineJanuary 16, 2025
+🚀 Our goal: Identify putative disease genes & explore drug repurposing using network-based algorithms.
 
-Overview
+🎯 Project Objectives
+🔬 Disease Gene Identification:
+✅ Leverage Protein-Protein Interaction (PPI) Networks
+✅ Use DIAMOnD, DIAble, and Diffusion algorithms
+✅ Analyze multi-omics data (proteomics & genomics)
 
-Non-alcoholic steatohepatitis (NASH) is a complex liver disorder characterized by fat accumulation, inflammation, and hepatocellular injury. As the prevalence of NASH rises globally, there is an urgent need to identify putative disease genes and explore potential drug repurposing strategies. This project utilizes network science methods and bioinformatics algorithms to analyze NASH-related genes and repurpose existing drugs as potential therapeutic candidates.
+💊 Drug Repurposing Approach:
+✅ Screen FDA-approved drugs
+✅ Identify potential therapeutic candidates
+✅ Accelerate the drug discovery process
 
-Objectives
+🛠 Methodology & Workflow
+📥 Step 1: Data Collection
+📌 BioGRID: PPI Network 🧬
+📌 DisGeNET: Gene-Disease Associations (C2711227)
 
-Identify putative disease-associated genes using PPI network analysis.
+🕸 Step 2: Network Construction
+📌 Build PPI Network from BioGRID
+📌 Filter for human physical interactions
+📌 Identify the Largest Connected Component (LCC)
 
-Utilize network-based algorithms (DIAMOnD, DIAble, Diffusion) to identify key genes related to NASH.
+🧪 Step 3: Disease Gene Identification
+📌 Apply DIAMOnD, DIAble, and Diffusion algorithms
+📌 Identify genes involved in NASH pathogenesis
 
-Integrate multi-omics data (proteomics and genomics) to explore disease mechanisms.
+💊 Step 4: Drug Repurposing
+📌 Map putative genes to existing drugs
+📌 Use network-based drug screening
+📌 Identify potential NASH treatments
 
-Implement drug repurposing strategies by screening approved drugs against the identified genes.
+🏗 Tech Stack & Tools
+🖥 Programming Language: Python 🐍
+📚 Libraries: pandas, numpy, networkx, matplotlib, seaborn
+🗄 Databases: BioGRID, DisGeNET
+📊 Algorithms: DIAMOnD, DIAble, Diffusion
 
-Provide insights into novel therapeutic avenues for NASH treatment.
+📊 Results & Insights
+✔ Identified key genes linked to NASH
+✔ Mapped existing drugs for repurposing
+✔ Bioinformatics-driven approach for liver disease research
 
-Methodology
+🔍 Potential Impact:
+🚀 Accelerates drug discovery
+🩺 Provides therapeutic targets
+🔬 Advances precision medicine for NASH
 
-1. Data Collection
-
-Protein-Protein Interaction (PPI) Network: Retrieved from BioGRID database.
-
-Gene-Disease Associations (GDAs): Extracted from DisGeNET (Disease Code: C2711227).
-
-2. Network Construction & Analysis
-
-Built PPI network from BioGRID interactome.
-
-Filtered data to include only human physical interactions.
-
-Identified the largest connected component (LCC) within the network.
-
-3. Disease Gene Identification
-
-Applied DIAMOnD, DIAble, and Diffusion algorithms to identify putative disease genes.
-
-Prioritized genes based on their connectivity and biological relevance.
-
-4. Drug Repurposing
-
-Mapped identified genes to known drug-target interactions.
-
-Screened FDA-approved drugs for potential efficacy against NASH-related pathways.
-
-Technologies Used
-
-Python (pandas, numpy, networkx, matplotlib, seaborn)
-
-BioGRID and DisGeNET databases for gene and interaction data
-
-Graph-based algorithms for network analysis
-
-Results & Impact
-
-Identified key genes potentially involved in NASH pathogenesis.
-
-Proposed existing drugs that may be repurposed for NASH treatment.
-
-Contributed to advancing bioinformatics-driven approaches for liver disease research.
