@@ -1,4 +1,4 @@
-🧬 Putative Disease Gene Identification & Drug Repurposing for Steatohepatitis
+## 🧬 Putative Disease Gene Identification & Drug Repurposing for Steatohepatitis
 👥 Authors
 🔹 Milad Torabi, Possenti Francesca
 🔹 Group 9
