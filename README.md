@@ -22,31 +22,41 @@ Non-alcoholic steatohepatitis (NASH) is a complex liver disorder characterized b
 - Implement drug repurposing strategies by screening approved drugs against the identified genes.   
 - Provide insights into novel therapeutic avenues for NASH treatment.  
 
+💊 Drug Repurposing Approach:  
+- creen FDA-approved drugs  
+- Identify potential therapeutic candidates
+- Accelerate the drug discovery process
 
-💊 4. Drug Repurposing Approach:  
-✅ Screen FDA-approved drugs  
-✅ Identify potential therapeutic candidates  
-✅ Accelerate the drug discovery process  
- 
+--------------
+
+## 📚 **Project Structure**
+📂 Project Root  
+├── [📘 Report_MLP.pdf](Report_MLP.pdf)  
+├── [📄 README.md (This File)](README.md)    
+├── [📊 AGE_REGRESSION.csv (Dataset)](AGE_PREDICTION.csv)  
+├── [📜 Functions_MLP.py (Functions and Utility Codes)](Functions_MLP.py)  
+└── [📒 run_MLP.ipynb (Jupyter Notebook for Training and Running the Model)](run_MLP.ipynb)  
+
+----------------
 
 🛠 Methodology & Workflow:   
 
 📥 Step 1: Data Collection  
-📌 Protein-Protein Interaction (PPI) Network: Retrieved from BioGRID database.  
-📌 Gene-Disease Associations (GDAs): Extracted from DisGeNET (Disease Code: C2711227).  
+- Protein-Protein Interaction (PPI) Network: Retrieved from BioGRID database.  
+- Gene-Disease Associations (GDAs): Extracted from DisGeNET (Disease Code: C2711227).  
 
 🕸 Step 2: Network Construction & Analysis  
-📌 Built PPI network from BioGRID interactome.  
-📌 Filtered data to include only human physical interactions.  
-📌 Identified the largest connected component (LCC) within the network.  
+- Built PPI network from BioGRID interactome.  
+- Filtered data to include only human physical interactions.  
+- Identified the largest connected component (LCC) within the network.  
 
 🧪 Step 3: Disease Gene Identification  
-📌 Applied DIAMOnD, DIAble, and Diffusion algorithms to identify putative disease genes.  
-📌 Prioritized genes based on their connectivity and biological relevance.  
+- Applied DIAMOnD, DIAble, and Diffusion algorithms to identify putative disease genes.  
+- Prioritized genes based on their connectivity and biological relevance.  
 
 💊 Step 4: Drug Repurposing  
-📌 Mapped identified genes to known drug-target interactions.   
-📌 Screened FDA-approved drugs for potential efficacy against NASH-related pathways.   
+- Mapped identified genes to known drug-target interactions.   
+- Screened FDA-approved drugs for potential efficacy against NASH-related pathways.   
 
 🏗 Tech Stack & Tools
 🖥 Programming Language: Python  
@@ -65,6 +75,6 @@ Non-alcoholic steatohepatitis (NASH) is a complex liver disorder characterized b
 🔬 Advances precision medicine for NASH  
 
 🔮 Future Work  
-🔹 Expand datasets with multi-omics data  
-🔹 Validate findings via experimental studies  
-🔹 Incorporate deep learning for better gene-disease association predictions  
+- Expand datasets with multi-omics data  
+- Validate findings via experimental studies  
+- Incorporate deep learning for better gene-disease association predictions  
