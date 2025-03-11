@@ -6,7 +6,7 @@
 📝 Overview:  
 Non-alcoholic steatohepatitis (NASH) is a complex liver disorder characterized by fat accumulation, inflammation, and hepatocellular injury. As the prevalence of NASH rises globally, there is an urgent need to identify putative disease genes and explore potential drug repurposing strategies. This project utilizes network science methods and bioinformatics algorithms to analyze NASH-related genes and repurpose existing drugs as potential therapeutic candidates.
 
-## 🚀 Our goal: Identify putative disease genes & explore drug repurposing using network-based algorithms.
+### 🚀 Our goal: Identify putative disease genes & explore drug repurposing using network-based algorithms.
 
 🎯 Project Objectives
 🔬 Disease Gene Identification:
